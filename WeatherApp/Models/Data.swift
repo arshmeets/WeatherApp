@@ -24,7 +24,7 @@ struct Data: Identifiable, Decodable {
     var cod: Int
 }
 
-struct Coordinate:Identifiable, Decodable {
+struct Coordinate: Identifiable, Decodable {
     var id: UUID?
     var lon: Double
     var lat: Double

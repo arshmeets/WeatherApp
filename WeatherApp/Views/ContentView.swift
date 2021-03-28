@@ -7,13 +7,10 @@
 
 import SwiftUI
 struct ContentView: View {
+    @EnvironmentObject var model: Api
+    
     var body: some View {
-        
         Text("Hello World")
-            .onAppear {
-                Api().getData()
-            }
-        
     }
 }
 
